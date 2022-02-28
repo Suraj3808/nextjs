@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: rgb(203, 247, 247);
 }
 
 a {
@@ -13,9 +14,74 @@ a {
 
 * {
   box-sizing: border-box;
+
 }
 
 .error{
   color: red;
   font-size: 40px;
 }
+
+nav{
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+nav ul{
+     display:flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     background-color: black;
+     width: 50rem;
+     height: 50px;
+     margin-left: 20rem;
+     font-size: 2rem;
+     color: white;
+     border-radius: 45px;
+     margin-top: 80px;
+}
+
+
+.ssr-styles{
+  margin: auto;
+  padding: 15px 20px;
+  width: 60%;
+  background: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ssr-styles:last-child{
+  margin-bottom: 100px;
+}
+.ssr-styles:last-inside{
+  flex-direction: column;
+}
+
+.ssr-styles h3{
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #189cf0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.ssr-styles h3:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.ssr-styles h2:hover{
+color: red;
+cursor: pointer;
+}
+
+

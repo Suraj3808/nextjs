@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
+import styles from "../styles/home.module.css";
 import Head from "next/head";
+import Image from "next/image";
 const Home = () => {
   return (
     <>
@@ -13,17 +15,24 @@ const Home = () => {
       </Head>
 
       <Navbar />
-      <h1> welcome to home Page</h1>
+      
 
       {/* internal css */}
       <style jsx>
         {`
           h1{
             color:green;
+            display:flex;
+            justify-content: center;er;
           }
         
         `}
       </style>
+      {/* external image using  */}
+     <div className={styles.homeimage}>
+     <Image src="https://wallpapercave.com/wp/wp2646347.jpg" width="800" height="500" alt="abotImages"></Image>
+     </div>
+     
     </>
 
   );

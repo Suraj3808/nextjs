@@ -1,4 +1,24 @@
-.fontstyle h1{
-    font-size: 50px;
-    color: red;
+.aboutimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+     margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.aboutimg1:hover{
+    transition: 1s all;
+    transform: translateX(7px) ;
+    cursor: pointer;
+
+}
+
+.aboutimg2:hover{
+    transition: 1s all;
+    transform: translateX(7px) ;
+    cursor: pointer;
+
 }
